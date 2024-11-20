@@ -12,7 +12,12 @@ public class asklepiosController {
     }
 
     @GetMapping("/return")
-    public String retunr() {
+    public String returnHome() {
         return "return";
+    }
+
+    @GetMapping("/1")
+    public String one() {
+        return "call";
     }
 }
